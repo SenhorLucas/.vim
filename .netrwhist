@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/lviana/repos/csp/tools/build_wrappers/csp_artifact_lib'
+let g:netrw_dirhist_2='/home/lviana/repos/csp/tools/build_wrappers/csp_artifact_lib/csp_artifact_lib'
+let g:netrw_dirhist_3='/home/lviana/.docker'
+let g:netrw_dirhist_4='/opt/csp/hpsdk/amd64/share/csp-dev'
+let g:netrw_dirhist_5='/home/lviana/.vim/plugged/indentpython.vim'
