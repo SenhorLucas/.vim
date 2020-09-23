@@ -98,17 +98,19 @@ au BufNewFile,BufRead *.py
 
 " Vim-plug
 call plug#begin('~/.vim/plugged')
+" Syntastic. Syntax checking.
+Plug 'scrooloose/syntastic'
+
 " Bracket pair colorizer
 Plug 'luochen1990/rainbow'
 let g:rainbow_active = 1
-
-" Code folding (suggestion from RealPython.com)
-Plug 'tmhedberg/SimplyFold'
-let g:SimplyFold_docstring_preview=1
 
 " Python indentation
 Plug 'vim-scripts/indentpython.vim'
 
 " Python autocompletion
 Plug 'Valloric/YouCompleteMe'
+
+" Git blame
+Plug 'zivyangll/git-blame.vim'
 call plug#end()
